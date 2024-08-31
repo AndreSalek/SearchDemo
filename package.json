@@ -1,0 +1,16 @@
+{
+  "name": "search-demo",
+  "version": "0.0.0",
+  "description": "SearchDemo",
+  "main": "server.js",
+  "author": {
+    "name": "André Šálek"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {},
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

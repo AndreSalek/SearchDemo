@@ -1,0 +1,36 @@
+body{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+.searchBox {
+	resize: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+	height: 5%;
+	width: 25vw;
+    word-wrap: break-word;
+    outline: none;
+	
+}
+
+.center {
+	text-align: center;
+	margin:auto;
+}
+
+.searchresults {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.item {
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.item:hover {
+	background-color: #D3D3D3;
+}
