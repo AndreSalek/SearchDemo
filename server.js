@@ -9,8 +9,8 @@ const port = process.env.PORT || 8080;
 const googleApi = 'https://www.googleapis.com/customsearch/v1'
 // Removed - should not be distributed
 // https://developers.google.com/custom-search/v1/overview
-const apiKey = process.env.APIKEY || ''
-const engineId = process.env.ENGINEID || ''
+const apiKey = process.env.APIKEY
+const engineId = process.env.ENGINEID
 
 const server = express();
 server.use(express.static(__dirname));

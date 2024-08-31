@@ -10,7 +10,6 @@ function sendRequest(e) {
 	let url = '/search'
 	let headers = {
 		method: 'GET',
-		data: query.value,
 		headers: {
 			'Content-Type': 'text/html'
 		}

@@ -1,15 +1,22 @@
 {
-  "name": "search-demo",
-  "version": "0.0.0",
-  "description": "SearchDemo",
+  "name": "searchdemo",
+  "version": "1.0.0",
+  "description": "This project uses Google's \"Custom Search JSON API\" to access internet search results, displays them and let's you save first page results as XML(XHTML) file on your machine.",
   "main": "server.js",
-  "author": {
-    "name": "André Šálek"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "devDependencies": {
-    "eslint": "^8.21.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreSalek/SearchDemo.git"
   },
-  "eslintConfig": {},
+  "author": "André Šálek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreSalek/SearchDemo/issues"
+  },
+  "homepage": "https://github.com/AndreSalek/SearchDemo#readme",
   "dependencies": {
     "express": "^4.19.2"
   }
